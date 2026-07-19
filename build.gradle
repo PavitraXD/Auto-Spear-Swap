@@ -1,0 +1,49 @@
+plugins {
+	id 'fabric-loom' version '1.14.10'
+	id 'maven-publish'
+}
+
+loom {
+	accessWidenerPath = file('src/main/resources/autospear.accesswidener')
+}
+
+version = project.mod_version
+group = project.maven_group
+base.archivesName = 'AutoSpearSwap'
+
+repositories {
+	// Add repositories here if you need to depend on other mods.
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+
+	// 1.21.11 is the last version Fabric ships Yarn mappings for.
+	// Official Mojang mappings are the forward-looking recommendation,
+	// so this project uses them instead of net.fabricmc:yarn.
+	mappings loom.officialMojangMappings()
+
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	// Fabric API. Technically optional, but needed here for
+	// KeyBindingHelper and ClientTickEvents.
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
