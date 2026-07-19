@@ -2,7 +2,7 @@
 
 # Auto Spear Swap
 
-<img src="https://img.shields.io/badge/Minecraft-1.21.11-green?style=for-the-badge" alt="MC Version">
+<img src="https://img.shields.io/badge/Minecraft-1.21.11/26.1/26.2-green?style=for-the-badge" alt="MC Version">
 <img src="https://img.shields.io/badge/Platform-Fabric-blue?style=for-the-badge" alt="Platform">
 <img src="https://img.shields.io/badge/Author-PavitraXD-orange?style=for-the-badge" alt="Author">
 
@@ -26,7 +26,7 @@ If no Lunge Spear is found, you get a quick action-bar message.
 
 ## 📋 Requirements
 
-- Minecraft **1.21.11**
+- Minecraft **1.21.11/26.1/26/2**
 - [Fabric Loader](https://fabricmc.net/) 0.18.1+
 - [Fabric API](https://modrinth.com/mod/fabric-api) 0.141.4+1.21.11
 
