@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pavitraxd.autospear.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "InventoryAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

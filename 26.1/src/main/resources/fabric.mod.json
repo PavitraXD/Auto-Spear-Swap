@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "autospear",
+  "version": "${version}",
+  "name": "AutoSpear",
+  "description": "Press a keybind to auto-swap to a Lunge-enchanted Spear in your hotbar, perform a left-click attack, then swap back to your original slot.",
+  "authors": [
+    "PavitraXD"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "accessWidener": "autospear.accesswidener",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pavitraxd.autospear.AutoSpearClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "autospear.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
