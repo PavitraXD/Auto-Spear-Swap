@@ -2,7 +2,9 @@
 
 # Auto Spear Swap
 
-<img src="https://img.shields.io/badge/Minecraft-1.21.11/26.1/26.2-green?style=for-the-badge" alt="MC Version">
+<img src="https://img.shields.io/badge/Minecraft-1.21.11-green?style=for-the-badge" alt="MC Version">
+<img src="https://img.shields.io/badge/Minecraft-26.1-green?style=for-the-badge" alt="MC Version">
+<img src="https://img.shields.io/badge/Minecraft-26.2-green?style=for-the-badge" alt="MC Version">
 <img src="https://img.shields.io/badge/Platform-Fabric-blue?style=for-the-badge" alt="Platform">
 <img src="https://img.shields.io/badge/Author-PavitraXD-orange?style=for-the-badge" alt="Author">
 
