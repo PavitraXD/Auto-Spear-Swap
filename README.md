@@ -36,7 +36,7 @@ If no Lunge Spear is found, you get a quick action-bar message.
 
 ## ⚙️ Keybind
 
-Default key is **R**. Rebind it anytime in **Options → Controls → AutoSpear**.
+Default key is **R**. change it anytime in **Options → Controls → AutoSpear**.
 
 ---
 
